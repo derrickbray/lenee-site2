@@ -8,22 +8,9 @@ $c-primary: #607d8b;
 
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
+@import 'top';
 
-.top {
+.mid {
   display: flex;
-  justify-content: center;
-  padding: 4rem;
-  color: $c-primary;
-}
-
-.headshot {
-  width: 100%;
-  // border: 2px solid $c-primary;
-  border-radius: 0.4rem;
-  text-align: center;
-  background: transparentize($c-primary, 0.7);
-
-  &__pic {
-    border-radius: 50%;
-  }
+  flex-grow: 1;
 }

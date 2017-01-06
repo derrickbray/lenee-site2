@@ -1,0 +1,18 @@
+.top {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  color: $c-primary;
+}
+
+.headshot {
+  width: 100%;
+  // border: 2px solid $c-primary;
+  border-radius: 0.4rem;
+  background: transparentize($c-primary, 0.7);
+  text-align: center;
+
+  &__pic {
+    border-radius: 50%;
+  }
+}
