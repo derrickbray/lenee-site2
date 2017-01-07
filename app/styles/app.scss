@@ -5,12 +5,40 @@
 
 // $c-primary: #455a38;
 $c-primary: #607d8b;
-
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'top';
 
 .mid {
   display: flex;
-  flex-grow: 1;
+  justify-content: center;
+  padding: 4rem;
+
+  &-img {
+    flex-grow: 1;
+
+    &__1 {
+      width: calc(100% / 4 - 0.5rem);
+      height: 15rem;
+      background: url('../skyline2.jpeg') no-repeat center bottom;
+    }
+
+    &__2 {
+      width: calc(100% / 4 - 0.5rem);
+      height: 15rem;
+      background: url('../skyline2.jpeg') no-repeat center bottom;
+    }
+
+    &__3 {
+      width: calc(100% / 4 - 0.5rem);
+      height: 15rem;
+      background: url('../skyline2.jpeg') no-repeat center bottom;
+    }
+
+    &__4 {
+      width: calc(100% / 4 - 0.5rem);
+      height: 15rem;
+      background: url('../skyline2.jpeg') no-repeat center bottom;
+    }
+  }
 }
