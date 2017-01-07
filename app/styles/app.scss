@@ -3,10 +3,37 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
-// $c-primary: #455a38;
-$c-primary: #607d8b;
-$c-background: transparentize($c-primary, 0.7);
+// #9A9A00
+// #372916
+// #935202
+// #4F0461
+// #101F36
+// #607d8b
+// #1D3100
+// #455a38;
+$c-primary: transparentize(#372916, 0.3);
+
+$c-background: transparentize(#372916, 0.7);
+$c-link: #372916;
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'top';
 @import 'mid';
+
+.contact {
+  padding: 4rem;
+  color: $c-primary;
+
+  &-info {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.4rem;
+    background: $c-background;
+    text-align: center;
+
+    a {
+      color: $c-link;
+      text-decoration: none;
+    }
+  }
+}
