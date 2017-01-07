@@ -5,6 +5,7 @@
 
 // $c-primary: #455a38;
 $c-primary: #607d8b;
+$c-background: transparentize($c-primary, 0.7);
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'top';

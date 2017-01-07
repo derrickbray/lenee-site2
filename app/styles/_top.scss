@@ -9,7 +9,7 @@
   width: 100%;
   // border: 2px solid $c-primary;
   border-radius: 0.4rem;
-  background: transparentize($c-primary, 0.7);
+  background: $c-background;
   text-align: center;
 
   &__pic {
