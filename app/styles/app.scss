@@ -26,13 +26,15 @@ $c-primary: #607d8b;
     &__2 {
       width: calc(100% / 4 - 0.5rem);
       height: 15rem;
-      background: url('../skyline2.jpeg') no-repeat center bottom;
+      background: url('../couch.jpg') no-repeat center bottom;
+      background-size: cover;
     }
 
     &__3 {
       width: calc(100% / 4 - 0.5rem);
       height: 15rem;
-      background: url('../skyline2.jpeg') no-repeat center bottom;
+      background: url('../river-birch.jpg') no-repeat center bottom;
+      background-size: cover;
     }
 
     &__4 {
