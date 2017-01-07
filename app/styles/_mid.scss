@@ -9,28 +9,28 @@
 
     &__1 {
       width: calc(100% / 4 - 0.5rem);
-      height: 15rem;
+      height: 21rem;
       border-radius: 0.4rem 0 0 0.4rem;
       background: url('../skyline2.jpeg') no-repeat center bottom;
     }
 
     &__2 {
       width: calc(100% / 4 - 0.5rem);
-      height: 15rem;
+      height: 21rem;
       background: url('../couch.jpg') no-repeat center bottom;
       background-size: cover;
     }
 
     &__3 {
       width: calc(100% / 4 - 0.5rem);
-      height: 15rem;
+      height: 21rem;
       background: url('../river-birch.jpg') no-repeat top right;
       background-size: cover;
     }
 
     &__4 {
       width: calc(100% / 4 - 0.5rem);
-      height: 15rem;
+      height: 21rem;
       border-radius: 0 0.4rem 0.4rem 0;
       background: url('../bench.jpeg') no-repeat center bottom;
       // background-size: cover;
